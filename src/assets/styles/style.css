@@ -2,10 +2,97 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
 }
 
-.test {
-    color: red !important;
+.h1style {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.h2style {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+.h3style {
+    font-size: 36px;
+    text-align: center;
+}
+.h4style {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+.inputstyle {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+.submit {
+    /* Градиент бахнул */
+    background: linear-gradient(90deg, #3B82F6 0%, #8B5CF6 100%);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.form{
+    background-image: url("/src/assets/img/im.png");
+    background-size: cover;
+    background-position: center;
+}
+/* хлебные крошки */
+.breadcrumbs {
+    margin-top: 20px;
+}
+
+.breadcrumbs ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs li {
+    position: relative;
+    background: linear-gradient(180deg, #B8D0D0 0%, #5F8A8A 100%);
+    padding: 12px 35px 12px 50px;
+    margin-left: -25px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.breadcrumbs li:first-child {
+    margin-left: 0;
+    padding-left: 35px;
+    z-index: 3;
+}
+
+.breadcrumbs li:nth-child(2) {
+    z-index: 2;
+}
+
+.breadcrumbs li:last-child {
+    background: linear-gradient(180deg, #A0C0C0 0%, #4A7070 100%);
+    z-index: 4;
+}
+
+.breadcrumbs a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
 }
