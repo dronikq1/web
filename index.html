@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -7,12 +8,16 @@
     <link rel="stylesheet" href="src/assets/styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <img src="image/logoyakamrus.png" alt="YAKAM" title="YAKAM">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
         <nav class="breadcrumbs">
             <ul>
                 <li><a href="index.html">Главная</a></li>
@@ -20,29 +25,53 @@
             </ul>
         </nav>
     </header>
-    <h1 class="h1style">Авто из Азии</h1>
-    <p class="paragraph">Мы доставляем автомобили с аукционов Японии, Кореи и Китая под ключ</p>
-    <h3 class="h3style">Наши услуги</h3>
-    <h4 class="h4style">Полная проверка перед покупкой</h4>
-    <p class="paragraph">Отчёты, фото и видео до оплаты</p>
-    <h3 class="h3style">Как работаем</h3>
-    <p class="paragraph">Подбор, покупка, доставка и растаможка</p>
 
     <hr>
 
-    <footer>
-        <h3 class="h3style">Свяжитесь с нами</h3>
-        <p class="paragraph">Работаем по всей России с 2015 года</p>
+    <main class="main-content">
+        <section class="intro">
+            <h1 class="h1style">Авто из Азии</h1>
+            <p class="paragraph">Мы доставляем автомобили с аукционов Японии, Кореи и Китая под ключ</p>
+        </section>
+
         <hr>
-        <ul>
-            <li>Офис в Москве, Тюмени, Екатеринбурге</li>
-            <li>+7 (345) 221-71-26</li>
-            <li>yakam@mail.ru</li>
-        </ul>
-        <p class="paragraph">Все права защищены</p>   
+
+        <section class="services">
+            <h3 class="h3style">Наши услуги</h3>
+
+            <article class="service">
+                <h4 class="h4style">Полная проверка перед покупкой</h4>
+                <p class="paragraph">Отчёты, фото и видео до оплаты</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="work-process">
+            <h3 class="h3style">Как работаем</h3>
+            <p class="paragraph">Подбор, покупка, доставка и растаможка</p>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer class="site-footer">
+        <section class="footer-contacts">
+            <h3 class="h3style">Свяжитесь с нами</h3>
+            <p class="paragraph">Работаем по всей России с 2015 года</p>
+
+            <hr>
+
+            <address>
+                <ul>
+                    <li>Офис в Москве, Тюмени, Екатеринбурге</li>
+                    <li>+7 (345) 221-71-26</li>
+                    <li>yakam@mail.ru</li>
+                </ul>
+            </address>
+        </section>
+
+        <p class="paragraph">Все права защищены</p>
     </footer>
-
-
-
 </body>
 </html>
