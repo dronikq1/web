@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Regular.woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Bold.woff2");
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: Inter, Arial, sans-serif;
+    color: #101828;
+}
+
+main {
+    flex: 1;
+}
+
+[id] {
+    scroll-margin-top: 120px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 85%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 24px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 85%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.header-content,
+.navigation,
+.header-contacts,
+.contact-line {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1124px;
+    min-height: 56px;
+    margin: 0;
+    padding: 16px 24px;
+    gap: 16px 80px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.logo img {
+    display: block;
+    width: auto;
+    height: 20px;
+}
+
+.navigation,
+.header-contacts {
+    font-size: 14px;
+}
+
+.header-contacts {
+    margin-left: auto;
+    color: #2d66ee;
+    white-space: nowrap;
+}
+
+.contact-line {
+    gap: 8px;
+}
+
+.contact-line img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.hero {
+    min-height: 900px;
+    padding: 160px 0 64px;
+    background: #f2f4f7 url("../image/hero-phones.png") no-repeat right top / 812px auto;
+}
+
+.hero-text {
+    width: 52%;
+    max-width: 610px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.45;
+}
+
+h1 span {
+    color: #2d66ee;
+}
+
+.hero-text p {
+    margin: 24px 0 64px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.consultation {
+    width: 56%;
+    max-width: 676px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.12);
+}
+
+.consultation h2 {
+    max-width: 480px;
+    margin: 0 0 32px;
+    font-size: 20px;
+}
+
+.form-fields {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.form-fields label {
+    flex: 1;
+    min-width: 0;
+    font-size: 13px;
+    color: #475467;
+}
+
+.form-fields input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #d0d5dd;
+    font: inherit;
+    font-size: 16px;
+}
+
+.form-fields input::placeholder {
+    color: #475467;
+    opacity: 1;
+}
+
+.form-fields .phone-input {
+    padding-left: 26px;
+    background: url("../image/icon/kz.svg") no-repeat left center / 16px auto;
+}
+
+.form-fields button {
+    width: 132px;
+    min-height: 58px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #2d66ee;
+    color: #fff;
+    font: inherit;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 48px;
+    padding: 24px;
+    background: #101828;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.footer h2 {
+    margin: 0 0 32px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 24px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.footer-contacts > div {
+    flex: 1;
+}
+
+.footer-contacts p {
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #98a2b3;
+}
+
+.footer-note {
+    margin: 32px 0 0;
+    font-size: 14px;
+    text-align: center;
+}
